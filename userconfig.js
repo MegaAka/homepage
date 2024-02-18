@@ -30,6 +30,31 @@ const CONFIG = new Config({
   openLastVisitedTab: false,
   tabs: [
     {
+      name: 'home',
+      background_url: 'src/img/banners/bg-10.png',
+      categories: [{
+        name: 'animanga fun',
+        links: [
+          {
+            url: 'https://www.mangadex.org/',
+            name: 'mangadex',
+            icon: 'cat',
+            icon_color: '#d38b64'
+          },
+          {
+            url: 'https://anilist.co/home',
+            name: 'anilist',
+            icon: 'src/img/icons/simple-icons--anilist.svg',
+            icon_color: '#64c1d3'
+          },
+          {
+            url: 'https://www.4chan.org/a/',
+            name: '/a/'
+          },
+        ]
+      }]
+    },
+    {
       name: 'boards',
       background_url: 'src/img/banners/bg-1.gif',
       categories: [{
