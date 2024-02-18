@@ -149,88 +149,28 @@ const CONFIG = new Config({
       categories: [{
         name: 'social',
         links: [
-          {
-            url: 'https://twitter.com/home',
-            name: 'twitter',
-            icon: 'brand-twitter-filled',
-            icon_color: '#64a7c9'            
-          },
-          {
-            url: 'https://web.whatsapp.com/',
-            name: 'whatsapp',
-            icon: 'brand-whatsapp',
-            icon_color: '#6bc964'
-          },
-          {
-            url: 'https://www.reddit.com/',
-            name: 'reddit',
-            icon: 'brand-reddit',
-            icon_color: '#c98264'             
-          },
-        ]
-      }]
-    },
-    {
-      name: 'tech',
-      background_url: 'src/img/banners/bg-3.gif',
-      categories: [
-        {
-          name: 'subreddits',
-          links: [
             {
-              name: 'r/startpages/',
-              url: 'https://www.reddit.com/r/startpages/'
+              url: 'https://twitter.com/home',
+              name: 'twitter',
+              icon: 'brand-twitter-filled',
+              icon_color: '#64a7c9'            
             },
             {
-              name: 'r/unixporn',
-              url: 'https://www.reddit.com/r/unixporn/'
+              url: 'https://web.whatsapp.com/',
+              name: 'whatsapp',
+              icon: 'brand-whatsapp',
+              icon_color: '#6bc964'
             },
             {
-              name: 'r/mechkbds/',
-              url: 'https://www.reddit.com/r/MechanicalKeyboards/',
-              icon: 'keyboard',
-              icon_color: '#a57685'
+              url: 'https://www.reddit.com/',
+              name: 'reddit',
+              icon: 'brand-reddit',
+              icon_color: '#c98264'             
             },
-            {
-              name: 'r/programming',
-              url: 'https://www.reddit.com/r/programming/'
-            }
-          ]
-        },
-        {
-          name: 'blogs',
-          links: [
-            {
-              name: 'fasterthanli',
-              url: 'https://fasterthanli.me/articles',
-              icon: 'anchor'
-            },
-            {
-              name: 'dev.to',
-              url: 'https://dev.to'
-            },
-            {
-              name: 'mataroa.blog',
-              url: 'https://collection.mataroa.blog',
-            }
-          ]
-        },
-        {
-          name: 'misc',
-          links: [
-            {
-              name: 'post office',
-              url: 'http://afternoon.dynu.com/letterbox.html',
-              icon: 'mailbox'
-            },
-            {
-              name: 'rust docs',
-              url: 'https://doc.rust-lang.org/book/',
-              icon: 'notebook',
-              icon_color: '#977a3a'
-            }
           ]
         }
-      ]
-    }]
+        ],
+      
+    }
+]
 });
