@@ -1,6 +1,5 @@
 const CONFIG = new Config({
-  disabled: ['todo-list', 'crypto-rate', 'weather-forecast'] 
-  crypto : {
+  crypto: {
     coin: 'ETH',
     currency: 'USD',
     refreshIn: 10
@@ -27,7 +26,7 @@ const CONFIG = new Config({
     "t": 'todo-list',
     "s": 'search-bar'
   },
-  disabled: [],
+  disabled: ['weather-forecast', 'crypto-rate'],
   openLastVisitedTab: false,
   tabs: [
     {
