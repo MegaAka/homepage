@@ -1,5 +1,6 @@
 const CONFIG = new Config({
-  disabled: ['crypto'] : {
+  disabled: ['todo-list', 'crypto-rate', 'weather-forecast'] 
+  crypto : {
     coin: 'ETH',
     currency: 'USD',
     refreshIn: 10
