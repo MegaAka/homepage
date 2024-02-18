@@ -10,7 +10,7 @@ const CONFIG = new Config({
     scale: 'C'
   },
   clock: {
-    format: 'h:i p',
+    format: 'do B Y - h:i',
     iconColor: '#ff7b95'
   },
   search: {
@@ -26,7 +26,7 @@ const CONFIG = new Config({
     "t": 'todo-list',
     "s": 'search-bar'
   },
-  disabled: ['weather-forecast', 'crypto-rate'],
+  disabled: ['weather-forecast', 'crypto-rate', 'todo-list'],
   openLastVisitedTab: false,
   tabs: [
     {
@@ -142,6 +142,33 @@ const CONFIG = new Config({
           ]
         }
       ]
+    },
+     {
+      name: 'myself',
+      background_url: 'src/img/banners/bg-4.webp',
+      categories: [{
+        name: 'social',
+        links: [
+          {
+            url: 'https://twitter.com/home',
+            name: 'twitter',
+            icon: 'brand-twitter-filled',
+            icon_color: '#64a7c9'            
+          },
+          {
+            url: 'https://web.whatsapp.com/',
+            name: 'whatsapp',
+            icon: 'brand-whatsapp',
+            icon_color: '#6bc964'
+          },
+          {
+            url: 'https://www.reddit.com/',
+            name: 'reddit',
+            icon: 'brand-reddit',
+            icon_color: '#c98264'             
+          },
+        ]
+      }]
     },
     {
       name: 'tech',
