@@ -145,7 +145,7 @@ const CONFIG = new Config({
     },
      {
       name: 'myself',
-      background_url: 'src/img/banners/bg-4.webp',
+      background_url: 'src/img/banners/bg-5.jpg',
       categories: [{
         name: 'social',
         links: [
