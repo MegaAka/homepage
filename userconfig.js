@@ -48,12 +48,6 @@ const CONFIG = new Config({
             icon: 'brand-twitter-filled',
             icon_color: '#64a7c9'            
           },
-        ],
-        name: '',
-        links: [
-          {
-
-          },
         ]
       }
     ],
