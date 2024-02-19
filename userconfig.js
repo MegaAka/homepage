@@ -19,7 +19,8 @@ const CONFIG = new Config({
       i: ['https://ixquick.com/do/search?q=', 'Ixquick'],
       d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
-      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
+      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia'],
+      b: ['https://bing.com/search?q=', 'bing']
     }
   },
   keybindings: {
@@ -37,19 +38,15 @@ const CONFIG = new Config({
         name: 'most important',
         links: [
           {
-            url: 'https://www.mangadex.org/',
-            name: 'mangadex',
-            icon: 'cat',
-            icon_color: '#d38b64'
-          },
-          {
-            url: 'https://anilist.co/home',
-            name: 'anilist',
-          },
-          {
             url: 'https://youtu.be/',
             icon: 'brand-youtube',
             icon_color: '#996767'
+          },
+          {
+            url: 'https://twitter.com/home',
+            name: 'twitter',
+            icon: 'brand-twitter-filled',
+            icon_color: '#64a7c9'            
           },
         ],
         name: '',
@@ -90,6 +87,32 @@ const CONFIG = new Config({
           {
             name: '/vt/',
             url: 'https://4chan.org/vt/'
+          },
+          {
+            name: '/music/',
+            url: 'https://lainchan.org/music/',
+            icon: 'disc'
+          },
+          {
+            name: '/mu/',
+            url: 'https://boards.4channel.org/mu/',
+          }
+        ]
+      },
+      {
+        name:'reddit boards',
+        links: [
+          {
+            name:'r/piracy',
+            link:'https://www.reddit.com/r/Piracy',
+          },
+          {
+            name:'r/animepiracy',
+            link:'https://www.reddit.com/r/animepiracy',
+          },
+          {
+            name:'r/japanesepeopletwitter',
+            link:'https://www.reddit.com/r/japanesepeopletwitter',
           }
         ]
       },
@@ -111,43 +134,11 @@ const CONFIG = new Config({
             icon_color: '#6c849d'
           }
         ]
-      },
-      {
-        name: 'music boards',
-        links: [
-          {
-            name: '/music/',
-            url: 'https://lainchan.org/music/',
-            icon: 'disc'
-          },
-          {
-            name: '/mu/',
-            url: 'https://boards.4channel.org/mu/',
-          }
-        ]
-      },
-      {
-        icon:'brand-reddit',
-        icon_color:'#d28860',
-        links: [
-          {
-            name:'r/piracy',
-            link:'https://www.reddit.com/r/Piracy',
-          },
-          {
-            name:'r/animepiracy',
-            link:'https://www.reddit.com/r/animepiracy',
-          },
-          {
-            name:'r/japanesepeopletwitter',
-            link:'https://www.reddit.com/r/japanesepeopletwitter',
-          }
-        ]
       }
       ]
     },
     {
-      name: 'entertainment',
+      name: 'enjoyment',
       background_url: 'src/img/banners/bg-15.png',
       categories: [
         {
@@ -190,8 +181,8 @@ const CONFIG = new Config({
               icon: 'radio'
             },
             {
-              url: 'https://r-a-d.io/',
-              icon: 'radio'
+              url: 'https://animethemes.moe/',
+              icon: 'anime themes'
             },
           ]
         },
@@ -205,10 +196,9 @@ const CONFIG = new Config({
         name: 'social',
         links: [
             {
-              url: 'https://twitter.com/home',
-              name: 'twitter',
-              icon: 'brand-twitter-filled',
-              icon_color: '#64a7c9'            
+              url:'https://github.com/',
+              icon:'brand-github',
+              icon_color:'#938780'
             },
             {
               url: 'https://web.whatsapp.com/',
