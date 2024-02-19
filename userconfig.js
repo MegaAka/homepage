@@ -32,7 +32,7 @@ const CONFIG = new Config({
   tabs: [
     {
       name: 'home',
-      background_url: 'src/img/banners/bg-8.png',
+      background_url: 'src/img/banners/bg-13.png',
       categories: [
         {
         name: 'most important',
@@ -132,7 +132,7 @@ const CONFIG = new Config({
       ]
     },
     {
-      name: 'enjoyment',
+      name: 'fun',
       background_url: 'src/img/banners/bg-15.png',
       categories: [
         {
@@ -198,7 +198,7 @@ const CONFIG = new Config({
               url: 'https://web.whatsapp.com/',
               name: 'whatsapp',
               icon: 'brand-whatsapp',
-              icon_color: '#6bc964'
+              icon_color: '#64876d'
             },
             {
               url: 'https://www.reddit.com/',
@@ -221,13 +221,13 @@ const CONFIG = new Config({
               url: 'https://www.aliexpress.com/',
               name: 'aliexpress',
               icon: 'shopping-cart',
-              icon_color: '##d77c65'            
+              icon_color: '#d77c65'            
             },
             {
               url: 'https://mx.ebay.com/',
               name: 'ebay',
               icon: 'basket-filled',
-              icon_color: '#65d778'            
+              icon_color: '#64876d'            
             },
           ]
         }
