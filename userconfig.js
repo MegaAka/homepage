@@ -20,7 +20,8 @@ const CONFIG = new Config({
       d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
       w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia'],
-      b: ['https://bing.com/search?q=', 'bing']
+      b: ['https://bing.com/search?q=', 'Bing'],
+      gb: ['https://gelbooru.com/index.php?page=post&s=list&tags=', 'Gelbooru']
     }
   },
   keybindings: {
@@ -38,6 +39,7 @@ const CONFIG = new Config({
         name: 'most important',
         links: [
           {
+            name: 'youtube',
             url: 'https://youtu.be/',
             icon: 'brand-youtube',
             icon_color: '#996767'
@@ -48,6 +50,10 @@ const CONFIG = new Config({
             icon: 'brand-twitter-filled',
             icon_color: '#64a7c9'            
           },
+          {
+            name: '',
+            url: '',
+          }
         ]
       }
     ],
@@ -176,7 +182,8 @@ const CONFIG = new Config({
             },
             {
               url: 'https://animethemes.moe/',
-              icon: 'anime themes'
+              name: 'anime themes',
+              icon: 'device-tv'
             },
           ]
         },
